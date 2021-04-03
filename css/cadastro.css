@@ -1,0 +1,110 @@
+body {
+    margin: 0; /* SOMENTE SE TIVER MARGIN, TODAS AS 4 MARGENS TERÃO 0 */
+    padding: 0; /* SOMENTE SE TIVER PADDING, TODAS O 4 PREENCHIMENTOS TERÃO 0 */
+    border: 0; /* LARGURA DA BORDA */
+  }
+
+  /* INICIO DA HEADER */
+.cabeçalho {
+    background-color: black; /* COR DO FUNDO DA DIV CABEÇALHO */
+    width: 100%; /* LARGURA DA DIV CABEÇALHO */
+    height: 80px; /* ALTURA DA DIV CABEÇALHO */
+}
+
+.caixa {
+    max-width: 1186px; /* LARGURA MAXIMA DA DIV CAIXA */
+    height: 100%; /* ALTURA DA DIV CAIXA */
+    margin-left: 122px; /* MARGIM ESQUERDA DA DIV CAIXA */
+}
+
+.cabeçalho h1 {
+    float: left; /* O H1 FLUTUA PARA A ESQUERDA */
+    padding-top: 20px; /* PREENCHIMENTO SUPERIOR DO H1 */
+}
+
+#cor_projeto {
+    color: orangered; /* COR DAS PALAVRAS COM ID INSERIDO NAS TAGS */
+}
+
+h1 {
+    margin-top: 0; /* MARGIM SUPERIOR DO H1 */
+    color: white; /* COR DO H1 */
+}
+
+ul {
+    list-style: none; /* SE UM VALOR ESTIVER FALTANDO, O VALOR PADRÃO SERÁ USADO */
+    margin-top: 0; /* MARGIM SUPERIOR DO UL */
+    padding-top: 33px; /* PREENCHIMENTO SUPERIOR DO UL */
+    margin-left: 823px; /* MARGIM ESQUERDA DO UL */
+    font-size: 12px; /* TAMANHO DA FONTE DO UL */
+}
+
+ul li {
+    color: white; /* COR DAS LI */
+    display: inline; /* COPORTAMENTO DE EXIBIÇÃO */ /*perguntar para o jesus*/
+    margin-left: 5px; /* MARGEM ESQUERDA DAS LI */
+    font-size: larger; /* TAMANHO DA LARGURA ENTRE AS LI */
+}
+/* FIM DA HEADER */
+
+/* INICIO DA DIV LARANJA */
+.linha {
+    background-color: orangered; /* COR DO FUNDO DA DIV LINHA */
+    width: 100%; /* LARGURA DA DIV LINHA */
+    height: 3px; /* ALTURA DA DIV LINHA */
+}
+/* FIM DA DIV LARANJA */
+
+.formulario {
+    background-color: #ecf0f1;
+    width: 100%;
+    height: 680px;
+    float: left;
+}
+
+.inputs {
+    float: left;
+    margin: 35px 0px 40px 122px;
+}
+
+.inputs h1 {
+    color: black;
+}
+
+form {
+    font-size: 20px;
+    margin-left: 0px;
+    float: left;
+
+}
+
+form .ipt{
+    padding: 10px;
+    padding-right: 300px;
+    border-radius: 5px;
+    border-style: double;
+    
+}
+
+
+.btn-green {
+    color: white;
+    background-color: green;
+    margin: 20px 0 60px 0;
+    border: 0;
+    padding: 10px 20px;
+
+    border-radius: 5px;
+    float: left;
+    cursor: pointer;
+    width: 105px;
+}
+
+
+.img {
+    float: right;
+}
+.imagem {
+    width: 500px;
+    margin-left: 100px;
+}

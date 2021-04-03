@@ -57,8 +57,8 @@ ul li {
 
 /* INICIO DA ÊNFASE DA PAGINA */
 .ênfase {
-    background-image: url(team.png); /* IMAGEM DE FUNDO */
-    background-size:cover; /* ESPECIFICA O TAMANHO DA IMAGEM DE FUNDO; auto = altura, cover = cobrir, contain = conter */
+    background-image: url(./imagens/team.png); /* IMAGEM DE FUNDO */
+    background-size: cover; /* ESPECIFICA O TAMANHO DA IMAGEM DE FUNDO; auto = altura, cover = cobrir, contain = conter */
     background-repeat: no-repeat; /* COMO A AIMGEM DE FUNDO SERÁ REPETIDA; no-repeat = não repetir */
     min-height: 400px; /* ALTURA MINIMA DA IMAGEM/ELEMENTO */
 }
@@ -125,6 +125,8 @@ ul li {
     font-size: 10px; /* TAMANHO DA FONTE DO BOTÃO */
 }
 /* FIM DA DIV ATUALIZAÇÃO */
+
+/* INICIO (MISSÃO, VALORES E VISÃO) */
 .conteudo .caixa {
     padding-top: 50px; /* PREENCHIMENTO SUPERIOR DA DIV CAIXA */
     height: 250px; /* ALTURA DA DIV CAIXA */
