@@ -1,2 +1,2 @@
-# Site Institucional Bandtec
-Criação de um site em HTML, CSS e JavaScript
+# site institucional bandtec
+criação de um site em HTML, CSS e JavaScript
